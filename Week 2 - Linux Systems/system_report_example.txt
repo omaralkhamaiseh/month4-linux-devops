@@ -1,0 +1,31 @@
+====================================
+      LINUX SERVER READINESS AUDIT
+====================================
+[SYSTEM INFORMATION]
+example-server
+[USER AND GROUPS]
+example-user
+[Example user and group information]
+[RUNNING PROCESSES]
+    PID TTY          TIME CMD
+    320 pts/0    00:00:00 bash
+    853 pts/0    00:00:00 ps
+[ENVIRONMENT VARIABLES]
+/home/example-user
+PATH=/usr/local/bin:/usr/bin:/bin
+[INSTALLED PACKAGES]
+curl/now 8.18.0-1ubuntu2.4 amd64 [installed,upgradable to: 8.18.0-1ubuntu2.8]
+libcurl3t64-gnutls/now 8.18.0-1ubuntu2.4 amd64 [installed,upgradable to: 8.18.0-1ubuntu2.8]
+libcurl4t64/now 8.18.0-1ubuntu2.4 amd64 [installed,upgradable to: 8.18.0-1ubuntu2.8]
+python3-pycurl/resolute,now 7.45.7-3build1 amd64 [installed,automatic]
+[SERVICE STATUS]
+active
+[SERVICE LOGS]
+Nov 19 15:42:25 example-server systemd[1]: Started cron.service - Regular background program processing daemon.
+Nov 19 16:35:54 example-server systemd[1]: Started cron.service - Regular background program processing daemon.
+Nov 20 14:13:58 example-server systemd[1]: Started cron.service - Regular background program processing daemon.
+Nov 21 20:30:51 example-server systemd[1]: Started cron.service - Regular background program processing daemon.
+Nov 22 16:14:31 example-server systemd[1]: Started cron.service - Regular background program processing daemon.
+Nov 23 22:30:04 example-server systemd[1]: Started cron.service - Regular background program processing daemon.
+[SSH INFORMATION]
+OpenSSH_10.2p1 Ubuntu-2ubuntu3.5, OpenSSL 3.5.5 27 Jan 2026
